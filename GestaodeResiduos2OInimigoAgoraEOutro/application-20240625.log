@@ -1,0 +1,33 @@
+2024-06-25 13:29:14.292 [main] DEBUG br.edu.up.Main - ada
+2024-06-25 14:59:11.824 [main] INFO  util.dados.br.edu.up.Util - Lendo suposto número inteiro...
+2024-06-25 14:59:37.143 [main] INFO  util.dados.br.edu.up.Util - Lendo suposto número inteiro...
+2024-06-25 15:00:06.935 [main] INFO  util.dados.br.edu.up.Util - Lendo suposto número inteiro...
+2024-06-25 15:01:34.739 [main] INFO  util.dados.br.edu.up.Util - Lendo suposto número inteiro...
+2024-06-25 15:02:17.320 [main] ERROR util.dados.br.edu.up.Util - Erro na leitura do número!
+2024-06-25 15:03:22.599 [main] ERROR util.dados.br.edu.up.Util - Erro na leitura do número!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.base/java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at util.dados.br.edu.up.Util.lerInteiro(Util.java:14) [classes/:?]
+	at br.edu.up.Main.main(Main.java:22) [classes/:?]
+2024-06-25 15:10:43.110 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:12:20.032 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:12:20.037 [main] INFO  util.dados.br.edu.up.Util - Número inteiro inválido
+2024-06-25 15:12:27.776 [main] ERROR util.dados.br.edu.up.Util - Erro na leitura do número!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.base/java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at util.dados.br.edu.up.Util.lerInteiro(Util.java:14) [classes/:?]
+	at br.edu.up.Main.main(Main.java:22) [classes/:?]
+2024-06-25 15:12:36.805 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:12:36.806 [main] INFO  util.dados.br.edu.up.Util - Número inteiro inválido
+2024-06-25 15:13:00.817 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:13:00.820 [main] INFO  util.dados.br.edu.up.Util - Número inteiro inválido
+2024-06-25 15:13:24.968 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:13:24.971 [main] INFO  util.dados.br.edu.up.Util - Número inteiro inválido
+2024-06-25 15:13:26.675 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
+2024-06-25 15:13:42.624 [main] INFO  util.dados.br.edu.up.Util - Número inteiro comprovado!
