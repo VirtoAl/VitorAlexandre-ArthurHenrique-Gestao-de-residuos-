@@ -65,11 +65,11 @@ public abstract class PontoColetaController {
                     }
                     case "Plastico" -> {
                         quantidade += pontosColeta.get(i).getQuantidadePlastico();
-                        pontosColeta.get(i).setQuantidadeVidro(quantidade);
+                        pontosColeta.get(i).setQuantidadePlastico(quantidade);
                     }
                     case "Papel" -> {
                         quantidade += pontosColeta.get(i).getQuantidadePapel();
-                        pontosColeta.get(i).setQuantidadeVidro(quantidade);
+                        pontosColeta.get(i).setQuantidadePapel(quantidade);
                     }
                     default -> logger.error("Material não identificado!");
                 }
