@@ -1,17 +1,21 @@
 package br.edu.up.gestaoresiduos.abstrata;
 
+import java.util.UUID;
+
 public abstract class Usuario {
-    private String id;
+    private UUID id;
+    private String nome;
 
     public Usuario() {
         this.id = id;
+        this.nome = nome;
     }
 
-    public String getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 

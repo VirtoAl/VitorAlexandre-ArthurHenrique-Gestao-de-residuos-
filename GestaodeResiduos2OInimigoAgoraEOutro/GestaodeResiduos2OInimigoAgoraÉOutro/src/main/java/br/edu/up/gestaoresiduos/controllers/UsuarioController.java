@@ -1,6 +1,6 @@
 package br.edu.up.gestaoresiduos.controllers;
 
-import br.edu.up.gestaoresiduos.arquivo.Dados;
+import br.edu.up.gestaoresiduos.arquivo_modelos.Dados;
 import br.edu.up.gestaoresiduos.abstrata.Usuario;
 
 import java.util.ArrayList;

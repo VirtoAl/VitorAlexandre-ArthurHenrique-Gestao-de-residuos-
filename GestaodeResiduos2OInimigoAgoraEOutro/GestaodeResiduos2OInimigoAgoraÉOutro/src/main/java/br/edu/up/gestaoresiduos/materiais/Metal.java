@@ -7,7 +7,6 @@ public class Metal extends Residuos {
         super("Metal", quantidade);
     }
 
-
     @Override
     public void processarResiduos() {
         // Lógica específica para processar papel

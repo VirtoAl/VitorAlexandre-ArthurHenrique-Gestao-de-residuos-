@@ -1,6 +1,6 @@
 package br.edu.up.gestaoresiduos.controllers;
 
-import br.edu.up.gestaoresiduos.arquivo.Dados;
+import br.edu.up.gestaoresiduos.arquivo_modelos.Dados;
 import br.edu.up.gestaoresiduos.abstrata.Residuos;
 
 import java.util.ArrayList;
@@ -11,6 +11,7 @@ public class ResiduosController {
 
     public void addResiduos(Residuos residuo) {
         residuos.add(residuo);
+
         Dados.log("Resíduo adicionado: " + residuo.toString());
     }
 

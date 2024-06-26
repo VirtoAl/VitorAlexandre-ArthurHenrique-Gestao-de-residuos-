@@ -1,8 +1,14 @@
 package br.edu.up.gestaoresiduos;
 
-public class Empresa extends Pessoa {
-    public Empresa(int id, String nome, String endereco) {
-        super(nome, endereco);
+import br.edu.up.gestaoresiduos.abstrata.Usuario;
+
+public class Empresa extends Usuario {
+
+    private String CNPJ;
+
+    public Empresa() {
+        super();
+        this.CNPJ = CNPJ;
     }
 
     @Override
