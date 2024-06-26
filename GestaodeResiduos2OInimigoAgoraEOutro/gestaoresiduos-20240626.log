@@ -1,0 +1,63 @@
+2024-06-26 10:54:19.363 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:54:37.452 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:56:29.349 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:56:31.560 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:57:03.033 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:57:04.911 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:58:13.563 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:58:15.431 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:58:51.946 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:58:53.460 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:59:23.801 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 10:59:28.740 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 10:59:55.530 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 11:00:09.550 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:00:28.576 [main] DEBUG br.edu.up.Main - ababa
+2024-06-26 11:00:30.960 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:36:40.214 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:36:40.217 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro inválido
+2024-06-26 11:36:49.359 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Erro na leitura do número!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.base/java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at br.edu.up.gestaoresiduos.util.Util.lerInteiro(Util.java:15) [classes/:?]
+	at br.edu.up.Main.main(Main.java:22) [classes/:?]
+2024-06-26 11:36:57.480 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:37:01.129 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:37:05.690 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:01.893 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:01.897 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:42:08.779 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Erro na leitura do número!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964) ~[?:?]
+	at java.base/java.util.Scanner.next(Scanner.java:1619) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284) ~[?:?]
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238) ~[?:?]
+	at br.edu.up.gestaoresiduos.util.Util.lerInteiro(Util.java:15) [classes/:?]
+	at br.edu.up.Main.main(Main.java:22) [classes/:?]
+2024-06-26 11:42:08.791 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:42:40.901 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:45.519 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:47.699 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:50.290 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:42:50.290 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:43:54.469 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:43:54.469 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:45:10.402 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:55:46.972 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:55:46.976 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:57:31.261 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:57:31.266 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 11:57:34.630 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:57:38.609 [main] INFO  br.edu.up.gestaoresiduos.util.Util - Número inteiro comprovado!
+2024-06-26 11:57:38.609 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado
+2024-06-26 12:00:46.454 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Jorge infelizmente, não é um número inteiro
+java.lang.NumberFormatException: For input string: "Jorge"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:588) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:685) ~[?:?]
+	at br.edu.up.gestaoresiduos.util.Util.lerInteiro(Util.java:16) [classes/:?]
+	at br.edu.up.Main.main(Main.java:22) [classes/:?]
+2024-06-26 12:00:46.468 [main] ERROR br.edu.up.gestaoresiduos.util.Util - Leitura não está dentro do escopo esperado

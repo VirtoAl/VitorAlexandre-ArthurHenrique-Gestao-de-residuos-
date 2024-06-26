@@ -1,9 +1,12 @@
 package br.edu.up;
 
-import br.edu.up.dados.view.Execucao;
+import br.edu.up.gestaoresiduos.controllers.ResiduosController;
+import br.edu.up.gestaoresiduos.materiais.Plastico;
+import br.edu.up.gestaoresiduos.materiais.Vidro;
+import br.edu.up.gestaoresiduos.view.Execucao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import br.edu.up.dados.util.Util;
+import br.edu.up.gestaoresiduos.util.Util;
 
 import java.util.Scanner;
 
@@ -28,8 +31,10 @@ public class Main {
         System.out.println("======================================");
     }
     public static void exibirMenu(Scanner scanner, int op){
-        if(op == 1){
-            Execucao.executar(scanner);
+        switch (op){
+            case 1 -> Execucao.executar(scanner);
+            case 2 -> System.out.println("Finalizando sistema...");
+            default -> Util.erro("Leitura não está dentro do escopo esperado");
         }
     };
 }
