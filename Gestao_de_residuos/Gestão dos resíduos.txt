@@ -1,0 +1,16 @@
+=========================================
+Ponto de coleta: defds
+Quantidade de Metal: 0.0
+Quantidade de Papel: 0.0
+Quantidade de Plástico: 0.0
+Quantidade de Vidro: 0.0
+=========================================
+=========================================
+=========================================
+=========================================
+Ponto de coleta: EOKds
+Quantidade de Metal: 0.0
+Quantidade de Papel: 0.0
+Quantidade de Plástico: 0.0
+Quantidade de Vidro: 0.0
+=========================================
